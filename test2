@@ -1,0 +1,83 @@
+Script started on Sun 02 Dec 2018 12:59:53 PM PST
+]0;aplaza@lh-cslab-006:~/hwk_8[?1034h[aplaza@lh-cslab-006 hwk_8]$ ./shell)ma[K[K[K_main
+> ls
+build.bash  command_line.c  command_line.h  libname.so	objs  runs  shell_main	shell_main.c  test1  test2
+Exit status was : 0
+Current directory: /home/aplaza/hwk_8
+0: ls
+> cd /home. /aplaza/comp280/
+Current directory: /home/aplaza/comp280
+0: cd
+1: /home/aplaza/comp280/
+> ls
+For_Students  labs	 plaza_hw1.tar	plaza_hw2.tar  plaza_hw3.tar  plaza_hw4.tar  plaza_hw6	realRoot.c
+hwk7.tar      plaza_hw1  plaza_hw2	plaza_hw3      plaza_hw4      plaza_hw5      plaza_hw8	realRoot.s
+Exit status was : 0
+Current directory: /home/aplaza/comp280
+0: ls
+> pwd &
+Current directory: /home/aplaza/comp280
+0: pwd
+background
+> /home/aplaza/comp280
+Exit status was : 0
+pwd
+/home/aplaza/comp280
+Exit status was : 0
+Current directory: /home/aplaza/comp280
+0: pwd
+> sleep 5 $ &
+Current directory: /home/aplaza/comp280
+0: sleep
+1: 5
+background
+> Exit status was : 0
+sleep 300 &
+Current directory: /home/aplaza/comp280
+0: sleep
+1: 300
+background
+> sleep 400 &
+Current directory: /home/aplaza/comp280
+0: sleep
+1: 400
+background
+> sleep 500 &
+Current directory: /home/aplaza/comp280
+0: sleep
+1: 500
+background
+> ps
+  PID TTY          TIME CMD
+19919 pts/1    00:00:00 bash
+19977 pts/1    00:00:00 shell_main
+20092 pts/1    00:00:00 sleep
+20119 pts/1    00:00:00 sleep
+20133 pts/1    00:00:00 sleep
+20135 pts/1    00:00:00 ps
+Exit status was : 0
+Current directory: /home/aplaza/comp280
+0: ps
+> kill 20092
+Exit status was : 0
+Signal terminated process: 15
+Current directory: /home/aplaza/comp280
+0: kill
+1: 20092
+> kill 20119
+Signal terminated process: 15
+Current directory: /home/aplaza/comp280
+0: kill
+1: 20119
+> kill 20133
+Signal terminated process: 15
+Signal terminated process: 15
+Current directory: /home/aplaza/comp280
+0: kill
+1: 20133
+> kill 1999 77
+Terminated
+]0;aplaza@lh-cslab-006:~/hwk_8[aplaza@lh-cslab-006 hwk_8]$ exit
+exit
+
+Script done on Sun 02 Dec 2018 01:01:57 PM PST

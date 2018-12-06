@@ -1,0 +1,38 @@
+Script started on Sun 02 Dec 2018 01:52:44 PM PST
+]0;aplaza@lh-cslab-006:~/hwk_8[?1034h[aplaza@lh-cslab-006 hwk_8]$ ./shell_main
+> sleep 300 &
+Current directory: /home/aplaza/hwk_8
+0: sleep
+1: 300
+background
+> sleep 400 &
+Current directory: /home/aplaza/hwk_8
+0: sleep
+1: 400
+background
+> sleep 500 &
+Current directory: /home/aplaza/hwk_8
+0: sleep
+1: 500
+background
+> sleep 600 &
+Current directory: /home/aplaza/hwk_8
+0: sleep
+1: 600
+background
+> ^CSignal terminated process: 2
+Signal terminated process: 2
+ps
+  PID TTY          TIME CMD
+23432 pts/1    00:00:00 bash
+23488 pts/1    00:00:00 shell_main
+23510 pts/1    00:00:00 ps
+Signal terminated process: 2
+Current directory: /home/aplaza/hwk_8
+0: ps
+> kill 23488
+Terminated
+]0;aplaza@lh-cslab-006:~/hwk_8[aplaza@lh-cslab-006 hwk_8]$ exit
+exit
+
+Script done on Sun 02 Dec 2018 01:53:18 PM PST
